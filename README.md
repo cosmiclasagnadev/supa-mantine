@@ -1,3 +1,5 @@
+![supa-mantine template](/assets/thumb.png)
+
 # Supa-Mantine Stack Template ⚡️
 
 This template was built for faster prototyping or experimenting with Supabase and the Mantine Styled Component Library.
