@@ -13,11 +13,11 @@ This is a stack I primarily use from time to time. Feel free to post some issues
 
 Start generating the template by entering:
 
-`yarn create next-app [project-name] -e 'https://github.com/aoponcedeleon/supa-mantine'`
+`yarn create next-app [project-name] -e 'https://github.com/cosmiclasagnadev/supa-mantine'`
 
 or
 
-`npx create-next-app [project-name] -e 'https://github.com/aoponcedeleon/supa-mantine'`
+`npx create-next-app [project-name] -e 'https://github.com/cosmiclasagnadev/supa-mantine'`
 
 Then `cd [project-name]` and do `yarn` or `npm install`
 
