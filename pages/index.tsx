@@ -40,7 +40,7 @@ export default function IndexPage() {
       <Center style={{height: "100vh"}}>
         <Flex direction="column" justify="center" align="center">
           <Title color="teal" mb="sm">Welcome to the Supa-Mantine Template 🎉</Title>
-          <Group spacing="sm" position="center">
+          <Group spacing="sm" position="center" mb="lg">
             <Button leftIcon={<IconChevronRight size={14} />} onClick={sampleFunction}>Trigger Sample Util Function</Button>
             <Button leftIcon={<IconChevronRight size={14} />} onClick={openModal}>Open Mantine Modal</Button>
             <Button

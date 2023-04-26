@@ -2,7 +2,7 @@ import {AppProps} from "next/app";
 import Head from "next/head";
 import {ColorScheme, ColorSchemeProvider, MantineProvider} from "@mantine/core";
 import {ModalsProvider} from '@mantine/modals';
-import {NotificationsProvider} from '@mantine/notifications';
+import {Notifications} from '@mantine/notifications';
 import {createBrowserSupabaseClient} from '@supabase/auth-helpers-nextjs';
 import {SessionContextProvider} from '@supabase/auth-helpers-react';
 import {theme} from "../theme";
@@ -38,9 +38,9 @@ export default function App(props: AppProps) {
             }}
           >
             <ModalsProvider>
-              <NotificationsProvider>
-                <Component {...pageProps} />
-              </NotificationsProvider>
+              <Notifications />
+              <Component {...pageProps} />
+
             </ModalsProvider>
           </MantineProvider>
         </ColorSchemeProvider>
